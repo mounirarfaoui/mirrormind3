@@ -1,0 +1,42 @@
+body {
+    min-height: 100vh;
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+.record-btn {
+    width: 100px;
+    height: 100px;
+    background: rgba(255, 0, 0, 0.8);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 20px auto;
+    box-shadow: 0 0 0 0 rgba(255,0,0,0.7);
+    /* animation: pulse 1.5s infinite; */
+    cursor: pointer;
+    position: relative;
+    transition: box-shadow 0.2s;
+}
+
+.record-btn:active {
+    transform: scale(0.95);
+}
+
+.glass {
+    border: 1px solid rgba(255,255,255,0.3);
+}
+
+.record-btn.recording {
+    background: rgba(0, 255, 0, 0.8);
+    box-shadow: 0 0 0 0 rgba(0,255,0,0.7);
+}
+
+.record-btn.talking {
+    box-shadow: 0 0 0 0 rgba(0,255,0,0.7), 0 0 20px 10px rgba(0,255,0,0.3);
+    animation: talking-pulse 0.7s infinite alternate;
+}
+@keyframes talking-pulse {
+    0% { box-shadow: 0 0 0 0 rgba(0,255,0,0.7), 0 0 20px 10px rgba(0,255,0,0.3); }
+    100% { box-shadow: 0 0 0 20px rgba(0,255,0,0); }
+} 
