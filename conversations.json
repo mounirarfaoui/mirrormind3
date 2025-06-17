@@ -1,0 +1,25 @@
+[
+  {
+    "id": 1,
+    "timestamp": "2025-06-17T16:19:59.305218",
+    "transcript": "Ah, you want it as if a tired person is *speaking*. Here's a short paragraph in that style:\n\n\"Man\u2026 I\u2019m so tired I can\u2019t even think straight. My whole body feels like it's made of lead. I just wanna lie down and forget everything for a while. Even talking feels like too much right now. I\u2019ve been running on empty all day\u2026 I don\u2019t even know how I\u2019m still up.\"\n",
+    "analysis": "I notice you're experiencing anger. These are natural human emotions. When feeling angry, it's helpful to take deep breaths and identify what's triggering this emotion. ",
+    "emotions": [
+      "anger"
+    ]
+  },
+  {
+    "id": 2,
+    "timestamp": "2025-06-17T16:44:32.493870",
+    "transcript": "hello I know I feel so tired today I slept for 8 hours but I don't know what's happening to me please help me figure out what's my problem ",
+    "analysis": "I'm here to listen. Your feelings are valid, whatever they may be. Sometimes putting words to our emotions can help us understand ourselves better.",
+    "emotions": []
+  },
+  {
+    "id": 3,
+    "timestamp": "2025-06-17T17:37:29.331634",
+    "transcript": "hello I feel bad today I just want you to know how to fix my mood and help me get better ",
+    "analysis": "I'm here to listen. Your feelings are valid, whatever they may be. Sometimes putting words to our emotions can help us understand ourselves better.",
+    "emotions": []
+  }
+]
